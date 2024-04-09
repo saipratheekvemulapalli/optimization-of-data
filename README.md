@@ -1,28 +1,27 @@
-# optimization-of-data
+# Technovation
 
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
+## Development server
 
-To develop an extension which  can show how much amount of co2 will be released due to uploading a particular  size of image in cloud and also help the user to reduce the size of image and show the user how much amount of co2 release is cut down by resizing the image.
+Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-If Image size was 1MB.
+## Code scaffolding
 
-Now, let's do the calculation:
- 
-Energy Consumption = 1 MB of 2% of 0.475 kg CO2/kWh
- The 2% accounts for the data center's share of global electricity consumption.
+Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
 
-Energy Consumption of Servers: 2% of global electricity consumption.- Carbon Intensity: 0.475 kg CO2 per kWh. 
+## Build
 
-Now, let's calculate the energy consumption and CO2 emissions for storing 1 MB of image data in the cloud for 1 year: 
+Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
 
-Energy Consumption = 1 MB * 2% = 0.02 MB of global electricity consumption.
-and we want to find the CO2 emissions for storing 0.02 MB of data: CO2 Emissions = Energy Consumption * Carbon IntensityCO2 Emissions = 0.02 MB * 0.475 kg CO2/kWh CO2 Emissions = 0.0095 kg CO2
+## Running unit tests
 
-Since we know the carbon intensity is 0.475 kg CO2 per kWh, and 
+Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
 
-we want to find the CO2 emissions for storing 0.02 MB of data: CO2 Emissions = Energy Consumption * 
+## Running end-to-end tests
 
-Carbon IntensityCO2 Emissions = 0.02 MB * 0.475 kg  CO2/kWh CO2
+Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
 
-Emissions = 9.5 g CO2
+## Further help
 
+To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
